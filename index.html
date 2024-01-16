@@ -1,13 +1,44 @@
-<!doctype HTML>
-<html>
-	<head>
-		<title>codedamn HTML Playground</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="/style.css" />
-	</head>
-	<body>
-		
-		<script src="/script.js"></script>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+<!--     link style.css here -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+   
+  </head>
+  <body class="flex justify-content align-items">
+    <div class="main-container">
+      <div class="search flex justify-content">
+<!--         insert your code here -->
+      </div>
+      <div id="msg" class="flex justify-content"></div>
+      <div class="weather-icon flex justify-content align-items">
+        <img id="img" src="https://openweathermap.org/img/wn/10d@2x.png" />
+      </div>
+      <div class="temp flex justify-content align-items">
+        <!-- <h2>1°c</h2> -->
+      </div>
+      <div class="state flex justify-content align-items">
+        <!-- <h2>Berlin</h2> -->
+      </div>
+      <div class="info flex space-around">
+        <div class="current-condition">
+          <!-- <i class="bx bx-water"></i>
+          <div class="more-info Humdity">90% Humdity</div> -->
+        </div>
+        <div class="wind-speed">
+          <!-- <i class="bx bx-wind"></i>
+          <div class="more-info"><p class="wind">2.68 km/h Wind Speed</p></div> -->
+          <!-- <i class="bx bx-wind"></i>
+          <div class="more-info wind">2.68 km/h Wind Speed</div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
 </html>
